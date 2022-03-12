@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WebappTestSuite" parallel="tests" thread-count="10" configfailurepolicy="skip">
+	
+	<test name="Amazon Tests">'
+		<classes>
+			<class name="com.simplilearn.webapptest.amazon.AmazonHomepageTest"></class>
+			<class name="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Anonnation Tests">
+		<classes>
+			<class name="com.simplilearn.webapptest.TestNGStandardAnnotationTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Group Tests">
+		<classes>
+			<class name="com.simplilearn.webapptest.group.BrowserBasedGroupTest"></class>
+		</classes>
+	</test>
+</suite>

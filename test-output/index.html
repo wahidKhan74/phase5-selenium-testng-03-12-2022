@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WebappTestSuite">
+              <span class="suite-name border-passed">WebappTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WebappTestSuite">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WebappTestSuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WebappTestSuite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WebappTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WebappTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WebappTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WebappTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WebappTestSuite" class="hide-methods passed suite-WebappTestSuite"> (hide)</a> <!-- hide-methods passed suite-WebappTestSuite -->
+                      <a href="#" panel-name="suite-WebappTestSuite" class="show-methods passed suite-WebappTestSuite"> (show)</a> <!-- show-methods passed suite-WebappTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-WebappTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="closeChrome">closeChrome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="closeFireFox">closeFireFox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="launchChromeTest">launchChromeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="launchFireFoxTest">launchFireFoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" hash-for-method="testBestSellerNavLink">testBestSellerNavLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" hash-for-method="testElectronicsNavLink">testElectronicsNavLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testFaceBookHomePage">testFaceBookHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testFailureLogin">testFailureLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testFieldsLogin">testFieldsLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonHomepageTest" hash-for-method="testHomePageSourceUrl">testHomePageSourceUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testHomePageSourceUrl">testHomePageSourceUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonHomepageTest" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" hash-for-method="testMobileNavLink">testMobileNavLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.TestNGStandardAnnotationTest" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.amazon.AmazonHomepageTest" hash-for-method="testSearchBar">testSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.group.BrowserBasedGroupTest" hash-for-method="testSearchBar">testSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.TestNGStandardAnnotationTest" hash-for-method="testThree">testThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebappTestSuite" title="com.simplilearn.webapptest.TestNGStandardAnnotationTest" hash-for-method="testTwo">testTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WebappTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WebappTestSuite" class="panel WebappTestSuite">
+          <div class="suite-WebappTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.webapptest.group.BrowserBasedGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeChrome">
+                  </a> <!-- closeChrome -->
+                  <span class="method-name">closeChrome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeFireFox">
+                  </a> <!-- closeFireFox -->
+                  <span class="method-name">closeFireFox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchChromeTest">
+                  </a> <!-- launchChromeTest -->
+                  <span class="method-name">launchChromeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchFireFoxTest">
+                  </a> <!-- launchFireFoxTest -->
+                  <span class="method-name">launchFireFoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFaceBookHomePage">
+                  </a> <!-- testFaceBookHomePage -->
+                  <span class="method-name">testFaceBookHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailureLogin">
+                  </a> <!-- testFailureLogin -->
+                  <span class="method-name">testFailureLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFieldsLogin">
+                  </a> <!-- testFieldsLogin -->
+                  <span class="method-name">testFieldsLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageSourceUrl">
+                  </a> <!-- testHomePageSourceUrl -->
+                  <span class="method-name">testHomePageSourceUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageTitle">
+                  </a> <!-- testHomePageTitle -->
+                  <span class="method-name">testHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBar">
+                  </a> <!-- testSearchBar -->
+                  <span class="method-name">testSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebappTestSuite-class-passed -->
+          <div class="suite-WebappTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.webapptest.amazon.AmazonHomepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageSourceUrl">
+                  </a> <!-- testHomePageSourceUrl -->
+                  <span class="method-name">testHomePageSourceUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageTitle">
+                  </a> <!-- testHomePageTitle -->
+                  <span class="method-name">testHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBar">
+                  </a> <!-- testSearchBar -->
+                  <span class="method-name">testSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebappTestSuite-class-passed -->
+          <div class="suite-WebappTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.webapptest.TestNGStandardAnnotationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne">
+                  </a> <!-- testOne -->
+                  <span class="method-name">testOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testThree">
+                  </a> <!-- testThree -->
+                  <span class="method-name">testThree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo">
+                  </a> <!-- testTwo -->
+                  <span class="method-name">testTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebappTestSuite-class-passed -->
+          <div class="suite-WebappTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBestSellerNavLink">
+                  </a> <!-- testBestSellerNavLink -->
+                  <span class="method-name">testBestSellerNavLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testElectronicsNavLink">
+                  </a> <!-- testElectronicsNavLink -->
+                  <span class="method-name">testElectronicsNavLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobileNavLink">
+                  </a> <!-- testMobileNavLink -->
+                  <span class="method-name">testMobileNavLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebappTestSuite-class-passed -->
+        </div> <!-- panel WebappTestSuite -->
+        <div panel-name="test-xml-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/wahidkhan74gmai/eclipse-workspace/phase5-selenium-testng-03-12-2022/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;WebappTestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.webapptest.amazon.AmazonHomepageTest&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Anonnation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.webapptest.TestNGStandardAnnotationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Anonnation Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Group Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.webapptest.group.BrowserBasedGroupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Group Tests --&gt;
+&lt;/suite&gt; &lt;!-- WebappTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebappTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Anonnation Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Group Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebappTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ChromeOnly</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchChromeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHomePageSourceUrl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchBar</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FirefoxOnly</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchFireFoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFaceBookHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFailureLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFieldsLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebappTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebappTestSuite');
+function tableData_WebappTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testElectronicsNavLink')
+data.setCell(0, 2, 'com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest')
+data.setCell(0, 3, 5335);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBestSellerNavLink')
+data.setCell(1, 2, 'com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest')
+data.setCell(1, 3, 5329);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchFireFoxTest')
+data.setCell(2, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(2, 3, 5248);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMobileNavLink')
+data.setCell(3, 2, 'com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest')
+data.setCell(3, 3, 5079);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchBar')
+data.setCell(4, 2, 'com.simplilearn.webapptest.amazon.AmazonHomepageTest')
+data.setCell(4, 3, 2803);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'closeFireFox')
+data.setCell(5, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(5, 3, 2658);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchBar')
+data.setCell(6, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(6, 3, 2445);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'launchChromeTest')
+data.setCell(7, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(7, 3, 2293);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHomePageTitle')
+data.setCell(8, 2, 'com.simplilearn.webapptest.amazon.AmazonHomepageTest')
+data.setCell(8, 3, 577);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testHomePageSourceUrl')
+data.setCell(9, 2, 'com.simplilearn.webapptest.amazon.AmazonHomepageTest')
+data.setCell(9, 3, 525);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFieldsLogin')
+data.setCell(10, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(10, 3, 186);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testFailureLogin')
+data.setCell(11, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(11, 3, 175);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'closeChrome')
+data.setCell(12, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(12, 3, 170);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testFaceBookHomePage')
+data.setCell(13, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(13, 3, 47);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testHomePageTitle')
+data.setCell(14, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(14, 3, 28);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testHomePageSourceUrl')
+data.setCell(15, 2, 'com.simplilearn.webapptest.group.BrowserBasedGroupTest')
+data.setCell(15, 3, 20);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testThree')
+data.setCell(16, 2, 'com.simplilearn.webapptest.TestNGStandardAnnotationTest')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testTwo')
+data.setCell(17, 2, 'com.simplilearn.webapptest.TestNGStandardAnnotationTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testOne')
+data.setCell(18, 2, 'com.simplilearn.webapptest.TestNGStandardAnnotationTest')
+data.setCell(18, 3, 1);
+window.suiteTableData['WebappTestSuite']= { tableData: data, tableDiv: 'times-div-WebappTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-WebappTestSuite">
+              </div> <!-- times-div-WebappTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebappTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebappTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.TestNGStandardAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.amazon.AmazonHomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomePageSourceUrl</span>
+                <span class="method-start">3290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">6303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBar</span>
+                <span class="method-start">9771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12577 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBestSellerNavLink</span>
+                <span class="method-start">14874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">20204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">20327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testElectronicsNavLink</span>
+                <span class="method-start">22413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">27749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">27867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobileNavLink</span>
+                <span class="method-start">30801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">35881 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.TestNGStandardAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">36031 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">36032 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOne</span>
+                <span class="method-start">36033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testThree</span>
+                <span class="method-start">36036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTwo</span>
+                <span class="method-start">36050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">36052 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">36052 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.group.BrowserBasedGroupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchChromeTest</span>
+                <span class="method-start">36062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchFireFoxTest</span>
+                <span class="method-start">38357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFaceBookHomePage</span>
+                <span class="method-start">43608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">43664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFieldsLogin</span>
+                <span class="method-start">43699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHomePageSourceUrl</span>
+                <span class="method-start">43888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailureLogin</span>
+                <span class="method-start">43910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeFireFox</span>
+                <span class="method-start">44087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchBar</span>
+                <span class="method-start">46746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeChrome</span>
+                <span class="method-start">49192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.webapptest.TestNGStandardAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">49367 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
