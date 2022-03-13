@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group Tests"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.543">
+  <properties />
+  
+  
+            <testcase name="launchChromeTest" time="3.385" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testHomePageSourceUrl" time="0.021" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testFaceBookHomePage" time="0.035" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testHomePageTitle" time="0.026" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="launchFireFoxTest" time="8.289" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testSearchBar" time="3.693" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="closeChrome" time="0.236" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testFieldsLogin" time="0.175" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="closeFireFox" time="1.499" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+                <testcase name="testFailureLogin" time="0.184" classname="com.simplilearn.webapptest.group.BrowserBasedGroupTest" />
+      
+</testsuite>

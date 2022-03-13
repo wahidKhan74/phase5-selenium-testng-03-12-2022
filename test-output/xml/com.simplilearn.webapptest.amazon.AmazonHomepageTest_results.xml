@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.327">
+  <properties />
+  
+  
+            <testcase name="testHomePageSourceUrl" time="0.902" classname="com.simplilearn.webapptest.amazon.AmazonHomepageTest" />
+                <testcase name="testHomePageTitle" time="1.335" classname="com.simplilearn.webapptest.amazon.AmazonHomepageTest" />
+                <testcase name="testSearchBar" time="4.090" classname="com.simplilearn.webapptest.amazon.AmazonHomepageTest" />
+      
+</testsuite>

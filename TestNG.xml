@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="WebappTestSuite" parallel="tests" thread-count="10" configfailurepolicy="skip">
+<suite name="WebappTestSuite" parallel="tests" thread-count="10" configfailurepolicy="continue">
 	
-	<test name="Amazon Tests">'
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="Amazon Tests">
 		<classes>
 			<class name="com.simplilearn.webapptest.amazon.AmazonHomepageTest"></class>
 			<class name="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest"></class>
@@ -11,6 +15,7 @@
 	<test name="Anonnation Tests">
 		<classes>
 			<class name="com.simplilearn.webapptest.TestNGStandardAnnotationTest"></class>
+			<class name="com.simplilearn.webapptest.TestNgAssertionDemo"></class>
 		</classes>
 	</test>
 	
@@ -18,5 +23,7 @@
 		<classes>
 			<class name="com.simplilearn.webapptest.group.BrowserBasedGroupTest"></class>
 		</classes>
-	</test>
+    </test>
+    
+    
 </suite>
