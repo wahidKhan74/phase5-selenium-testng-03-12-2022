@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.Test;
 
 public class BrowserBasedGroupTest {
@@ -24,7 +26,9 @@ public class BrowserBasedGroupTest {
 	@Test(groups = "ChromeOnly")
 	public void launchChromeTest() {
 		System.setProperty("webdriver.chrome.driver", chromePath);
-		driverOne = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		driverOne = new ChromeDriver(options);
 		driverOne.get(amazonUrl);
 	}
 	
@@ -59,7 +63,9 @@ public class BrowserBasedGroupTest {
 	@Test(groups = "FirefoxOnly")
 	public void launchFireFoxTest() {
 		System.setProperty("webdriver.gecko.driver", firefoxPath);
-		driverTwo = new FirefoxDriver();
+		FirefoxOptions options = new FirefoxOptions();
+		options.addArguments("--headless");
+		driverTwo = new FirefoxDriver(options);
 		driverTwo.get(facebookUrl);
 	}
 	
