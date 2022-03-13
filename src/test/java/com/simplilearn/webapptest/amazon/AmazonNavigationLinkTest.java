@@ -20,12 +20,10 @@ public class AmazonNavigationLinkTest {
 		
 		@BeforeMethod
 		public void beforeMethod() {
-			// step 2: set selenium system properties
-			System.setProperty("webdriver.chrome.driver", driverPath);
-			// step 3: instantiate selenium web-driver
-			ChromeOptions options = new ChromeOptions();
+			System.setProperty("webdriver.gecko.driver", driverPath );
+			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless");
-			driver = new ChromeDriver(options);
+			driver = new FirefoxDriver(options);
 			// step 4: launch browser
 			driver.get(siteUrl);
 		}
