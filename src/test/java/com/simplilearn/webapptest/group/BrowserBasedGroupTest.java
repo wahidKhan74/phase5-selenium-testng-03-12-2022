@@ -25,10 +25,10 @@ public class BrowserBasedGroupTest {
 	// step 1: test group chrome only
 	@Test(groups = "ChromeOnly")
 	public void launchChromeTest() {
-		System.setProperty("webdriver.chrome.driver", chromePath);
-		ChromeOptions options = new ChromeOptions();
+		System.setProperty("webdriver.gecko.driver", firefoxPath);
+		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--headless");
-		driverOne = new ChromeDriver(options);
+		driverOne = new FirefoxDriver(options);
 		driverOne.get(amazonUrl);
 	}
 	
