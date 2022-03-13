@@ -15,7 +15,7 @@ public class AmazonNavigationLinkTest {
 
 	// step 1: formulate a test url and driver path
 		String siteUrl = "https://www.amazon.in/";
-		String driverPath = "drivers/chromedriver";
+		String driverPath = "drivers/geckodriver";
 		WebDriver driver;
 		
 		@BeforeMethod
