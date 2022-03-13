@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Anonnation Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.006">
+  <properties />
+  
+  
+            <testcase name="hardAssetionTest" time="0.003" classname="com.simplilearn.webapptest.TestNgAssertionDemo" />
+                <testcase name="softAssertTest" time="0.003" classname="com.simplilearn.webapptest.TestNgAssertionDemo" />
+      
+</testsuite>

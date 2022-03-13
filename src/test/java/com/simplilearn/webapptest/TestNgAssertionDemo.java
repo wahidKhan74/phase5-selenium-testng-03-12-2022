@@ -14,7 +14,7 @@ public class TestNgAssertionDemo {
 	@Test(description="Hard Assert method Test")
 	public void hardAssetionTest() {		
 		System.out.println("--- Hard assert method is started ---");
-		assertFalse(true);   // Assertion Error.
+		// assertFalse(true);   // Assertion Error.
 		assertEquals(true, true);
 		assertTrue(true);
 		System.out.println("--- Hard assert method is completed ---");

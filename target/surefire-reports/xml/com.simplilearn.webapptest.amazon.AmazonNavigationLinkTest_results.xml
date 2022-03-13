@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.177">
+  <properties />
+  
+  
+            <testcase name="testElectronicsNavLink" time="4.837" classname="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" />
+                <testcase name="testBestSellerNavLink" time="5.193" classname="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" />
+                <testcase name="testMobileNavLink" time="5.147" classname="com.simplilearn.webapptest.amazon.AmazonNavigationLinkTest" />
+      
+</testsuite>
