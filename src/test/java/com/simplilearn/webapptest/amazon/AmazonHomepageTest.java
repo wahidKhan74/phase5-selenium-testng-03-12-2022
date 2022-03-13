@@ -20,7 +20,7 @@ public class AmazonHomepageTest {
 	
 	@BeforeMethod
 	public void beforeMethod() {
-		System.setProperty("webdriver.gecko.driver", firefoxPath);
+		System.setProperty("webdriver.gecko.driver", driverPath );
 		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--headless");
 		driver = new FirefoxDriver(options);
